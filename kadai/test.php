@@ -1,6 +1,6 @@
 <?php
 
-$str = "a１２４あえあい45";
+$str = "aあいbdaうdfえお45";
 
 $revStr = revStr($str);
 
@@ -25,4 +25,9 @@ function revStr($str) {
   }
 
   return $revStr;
+}
+
+function mb_strrev()
+{
+
 }
